@@ -1,0 +1,42 @@
+.wrapper{
+	border: 0px solid;
+	height: 500px;
+	width: 400px;
+	margin-left: 300px;
+	margin-top: 70px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: black;
+	box-shadow: 7px 7px red;
+	transition-property: background-color,color,filter;
+	transition-duration: 2s,1s,2s;
+	transition-timing-function: linear;
+}
+.wrapper:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+	background-color: pink;
+}
+.text:hover{
+	color: black;
+}
+.img{
+	height: 300px;
+	width: 200px;
+	clip-path: circle(45.0% at 0 50%);
+	float: left;
+	shape-outside: circle(45.0% at 0 50%);
+	shape-margin: 10px;
+}
+.text{
+	font-family: Arial,Sans-Serifs,Helvetica;
+	font-size: 14px;
+	word-break: break-all;
+	text-align: justify;
+	font-style: italic;
+	color: green;
+}
+.img:hover{
+	filter: saturate(300%);
+}
